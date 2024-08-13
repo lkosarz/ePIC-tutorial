@@ -32,6 +32,14 @@ Now you just need to run:
 And set up the basic environment variables:
 
 ```Sh
+source /opt/detector/epic-main/bin/thisepic.sh
+```
+
+or replace ``epic-main`` with a specific version you need.
+
+Old:
+
+```Sh
 source /opt/detector/setup.sh
 ```
 
@@ -46,6 +54,11 @@ cd epic
 cmake -B build -S . -DCMAKE_INSTALL_PREFIX=install
 cmake --build build -j8 -- install
 cd ../
+source install/bin/thisepic.sh
+```
+Old:
+
+```Sh
 source epic/install/setup.sh
 ```
 
