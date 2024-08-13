@@ -94,7 +94,7 @@ Now you can use [ROOT](https://root.cern/) to read the output [edm4hep](https://
 Just get it and run the macro:
 
 ```Sh
-root -l -b -q readTreeSim.C+ | tee run.log
+root -l -b -q readFrameRoot.C+ | tee run.log
 ```
 
 More information can be found in the [analyzing simulation output](https://indico.bnl.gov/event/18373/) tutorial.
