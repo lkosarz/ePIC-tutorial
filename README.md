@@ -68,6 +68,7 @@ You can make changes, recompile and run ``setup.sh``. Now the simulations will i
 
 - [New tutorials (in progress)](https://eic.github.io/documentation/tutorials.html)
 - [Tutorials collection](https://indico.bnl.gov/category/443/)
+- [ePIC container on Windows tutorial](https://github.com/aprozo/EpicSetup)
 - [Old tutorial](https://eic.phy.anl.gov/tutorials/eic_tutorial/)
 
 ## Running simulations with dd4hep
